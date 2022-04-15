@@ -1,17 +1,22 @@
 .product {
+	padding: 20px;
 	display: flex;
 	align-items: center;
 	justify-content: flex-end;
 	flex-direction: column;
-	max-height: 400px;
+	width: 25%;
 	min-width: 100px;
 	margin: 10px;
 	background-color: white;
 }
 
 .product__info {
-	height: 100px;
+	height: 150px;
 	margin-bottom: 15px;
+}
+
+.product__info > p {
+	color: #9c7e31;
 }
 
 .product__price {
@@ -22,13 +27,20 @@
 	display: flex;
 }
 
+.product__rating > p {
+	color: #f0c14b;
+}
+
 .product > button {
 	background-color: #f0c14b;
-	border: 1px solid;
+
 	border-color: #a88734 #9c7e31 #846a29;
 }
 
-.product > img {
+.image-container {
+}
+
+.image-container > img {
 	max-height: 200px;
 	width: 100%;
 	object-fit: contain;

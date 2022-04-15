@@ -21,8 +21,8 @@ const Product = ({ id, title, description, price, rating, image }) => {
 			<div className="product__info">
 				<p>{title}</p>
 				<p className="product__price">
-					<small>$</small>
 					<strong>{price}</strong>
+					<small>$</small>
 				</p>
 				<div className="product__rating">
 					{Array(rating)
@@ -33,8 +33,10 @@ const Product = ({ id, title, description, price, rating, image }) => {
 				</div>
 				<p>{description}</p>
 			</div>
+			<div className="image-container">
+				<img src={image} alt="image" />
+			</div>
 
-			<img src={image} alt="image" />
 			<button onClick={addItemToCart}>Add to Basket</button>
 		</div>
 	);
