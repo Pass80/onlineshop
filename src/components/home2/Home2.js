@@ -1,8 +1,8 @@
 import React from "react";
-import "./Home.css";
+import "./Home2.css";
 import Product from "../product/Product";
 
-const Home = () => {
+const Home2 = () => {
 	return (
 		<div className="home">
 			<img
@@ -12,50 +12,108 @@ const Home = () => {
 			/>
 			<div className="home__row">
 				<Product
-					id="1233"
-					title="Ipad Pro 2021"
-					image="https://med.csmobiles.com/275499-large_default/apple-ipad-pro-12-9-2021-5g-128gb-gris.jpg"
-					description="the new Apple Tablet that comes with the fastest processor ever built M1 chip"
-					price={1070}
-					rating={5}
+					id="25"
+					title="Huawei Nova 9 "
+					image="https://cdn.idealo.com/folder/Product/201644/3/201644378/s1_produktbild_max/huawei-nova-9-black.jpg"
+					description="Android Handy  6,57 Zoll  Full HD  50 MP  8 GB RAM  128 GB interner Speicher  Android 10  4.300 mAh Produktdetails"
+					price={600}
+					rating={4}
 				/>
 				<Product
-					id="123"
-					title="samsung"
-					image="https://www.notebookcheck.com/fileadmin/Notebooks/News/_nc3/samsung_galaxy_s7_edge_2.jpg"
-					description="a smart phone that has a powerful processor"
-					price={23}
+					id="26"
+					title="Huawei P30 lite"
+					image="https://cdn.idealo.com/folder/Product/6515/7/6515775/s1_produktbild_max/huawei-p30-lite-128gb-peacock-blue.jpg"
+					description="LTE Smartphone  6,15 Zoll  Full HD  48 MP  4 GB RAM  Android 10  3.340 mAh  Speicher erweiterbar "
+					price={350}
+					rating={3}
+				/>
+				<Product
+					id="27"
+					title="Huawei Nova 9 Black"
+					image="https://cdn.idealo.com/folder/Product/201644/3/201644378/s1_produktbild_max/huawei-nova-9-black.jpg"
+					description="Android Handy  6,57 Zoll  Full HD  50 MP  8 GB RAM  128 GB interner Speicher  Android 10  4.300 mAh   "
+					price={500}
+					rating={4}
+				/>
+				<Product
+					id="28"
+					title="Huawei P40 Pro"
+					image="https://cdn.idealo.com/folder/Product/200195/4/200195475/s1_produktbild_max/huawei-p40-pro-blush-gold.jpg"
+					description="5G Handy  6,58 Zoll  Full HD  50 MP  8 GB RAM  256 GB interner Speicher  Android 10  4.200 mAh  "
+					price={499}
 					rating={4}
 				/>
 			</div>
 			<div className="home__row">
 				<Product
-					id="123"
-					title="Alexa"
-					image="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6430/6430060cv13d.jpg"
-					description="a smart phone that has a powerful processor"
-					price={23}
+					id="29"
+					title="Huawei MateBook 14 "
+					image="https://cdn.idealo.com/folder/Product/201395/7/201395748/s1_produktbild_max/huawei-matebook-14-53011xju.jpg"
+					description="Multimedia Notebook  14 Zoll  512 GB SSD-Speicher  1,49 kg "
+					price={900}
 					rating={4}
 				/>
 				<Product
-					id="123"
-					title="LG wide screen"
-					image="https://media.cdn.kaufland.de/product-images/1024x1024/186fb2cf6ff29f5df3defe4634ad2ef7.jpg"
-					description="a smart phone that has a powerful processor"
-					price={23}
+					id="30"
+					title="Huawei MateBook D 16"
+					image="https://cdn.idealo.com/folder/Product/201716/5/201716567/s1_produktbild_max/huawei-matebook-13s-53012rbs.jpg"
+					description="Multimedia Notebook  16,1 Zoll  Full HD  AMD Ryzen 5 4600H  16 GB RAM  512 GB SSD-Speicher  AMD Radeon Graphics  Akkulaufzeit 9,5 h  1,74 kg   "
+					price={1600}
+					rating={4}
+				/>
+				<Product
+					id="31"
+					title="Huawei MateBook 16 "
+					image="https://cdn.idealo.com/folder/Product/201610/8/201610818/s1_produktbild_max/huawei-matebook-16-53011wls.jpg"
+					description="Multimedia Notebook  16 Zoll  AMD Ryzen 7 5800H  16 GB RAM  512 GB SSD-Speicher  AMD Radeon Graphics  Windows 10 Home  Akkulaufzeit 12,5 h  1,99 kg  "
+					price={1300}
+					rating={4}
+				/>
+				<Product
+					id="32"
+					title="Huawei MateBook D 15"
+					image="https://cdn.idealo.com/folder/Product/201816/1/201816139/s1_produktbild_max_1/huawei-matebook-d-15-53012rux.jpg"
+					description="Business Notebook  15,6 Zoll  Full HD  AMD Ryzen 5 5500U  8 GB RAM  512 GB SSD-Speicher  AMD Radeon Graphics  Windows 11 Home  Akkulaufzeit 7 h  1,5 kg  "
+					price={980}
+					rating={5}
+				/>
+			</div>
+			<div className="home__row">
+				<Product
+					id="33"
+					title="Honor MagicWatch 2"
+					image="https://cdn.idealo.com/folder/Product/7014/6/7014601/s1_produktbild_max/honor-magicwatch-2-46mm.jpg"
+					description="Android Smartwatch  Gehäusefarbe schwarz  1,39 Zoll  Unisex  iOS kompatibel  Android kompatibel  Kunststoff Gehäuse  AMOLED Display  "
+					price={250}
+					rating={5}
+				/>
+				<Product
+					id="34"
+					title="Honor Watch Magic"
+					image="https://cdn.idealo.com/folder/Product/6462/5/6462563/s1_produktbild_max/honor-watch-magic.jpg"
+					description="Android Smartwatch  Unisex  iOS kompatibel  Android kompatibel  Edelstahl Gehäuse  AMOLED Display "
+					price={180}
 					rating={3}
 				/>
 				<Product
-					id="123"
-					title="Amd processor 5th generation"
-					image="https://i.otto.de/i/otto/8d468dfc-5f4c-5b04-be55-0697a5c06748/amd-prozessor-ryzen-9-5950x.jpg?$formatz$"
-					description="a smart phone that has a powerful processor"
-					price={23}
-					rating={5}
+					id="35"
+					title="Honor MagicWatch 2 "
+					image="https://cdn.idealo.com/folder/Product/200249/1/200249186/s1_produktbild_max/honor-magicwatch-2-42mm-flax-brown.jpg"
+					description="Android Smartwatch  1,2 Zoll  Unisex  iOS kompatibel  Android kompatibel  Edelstahl Gehäuse  AMOLED Display"
+					price={199}
+					rating={3}
+				/>
+				<Product
+					id="36"
+					title="Honor Watch Magic"
+					image="https://cdn.idealo.com/folder/Product/6462/5/6462565/s1_produktbild_max/watch-magic-silber.jpg"
+					description="Android Smartwatch  Gehäusefarbe silber  Unisex  iOS kompatibel  Android kompatibel  Edelstahl Gehäuse  AMOLED Display  "
+					price={250}
+					rating={3}
 				/>
 			</div>
 		</div>
 	);
 };
 
-export default Home;
+export default Home2;

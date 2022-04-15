@@ -13,7 +13,7 @@ const Header = () => {
 		}
 	};
 	return (
-		<div>
+		<div className="header-container">
 			<nav className="header">
 				<Link to="/">
 					<img
@@ -65,19 +65,19 @@ const Header = () => {
 			</nav>
 			<div>
 				<ul className="sub-menu">
-					<Link to="/samsung">
+					<Link className="sub-link" to="/samsung">
 						<li>Samsung</li>
 					</Link>
 
-					<Link to="/apple">
+					<Link className="sub-link" to="/apple">
 						<li>Apple</li>
 					</Link>
 
-					<Link to="/lg">
+					<Link className="sub-link" to="/lg">
 						<li>LG</li>
 					</Link>
 
-					<Link to="/heuwai">
+					<Link className="sub-link" to="/huawei">
 						<li>Heuwai</li>
 					</Link>
 				</ul>

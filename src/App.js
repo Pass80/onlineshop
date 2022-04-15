@@ -4,6 +4,8 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Header from "./components/header/Header";
 import Home from "./components/home/Home";
 import Home1 from "./components/home 1/Home1";
+import Home2 from "./components/home2/Home2";
+import Home3 from "./components/home3/Home3";
 import Checkout from "./components/checkout/Checkout";
 import Login from "./components/login/Login";
 import { useStateValue } from "./components/state-provider/StateProvider";
@@ -54,11 +56,11 @@ const App = () => {
 					</Route>
 					<Route path="/lg">
 						<Header />
-						<Home />
+						<Home3 />
 					</Route>
-					<Route path="/huwaei">
+					<Route path="/huawei">
 						<Header />
-						<Home />
+						<Home2 />
 					</Route>
 					<Route path="/">
 						<Header />
